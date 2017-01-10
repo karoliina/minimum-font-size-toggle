@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Minimum Font Size Toggle",
+    "version": "1.0",
+    "description": "Quickly toggle the minimum font size between two pre-set values.",
+    "browser_action": {
+        "default_icon": "icon32.png",
+        "default_title": "Minimum Font Size Toggle"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["minFontSize.js"]
+    },
+    "permissions": [
+        "fontSettings",
+        "storage"
+    ],
+    "options_page": "options.html"
+}
